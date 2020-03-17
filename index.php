@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link href="css/style1.css" rel="stylesheet">
 </head>
-<body class="text-center">
+<body class="text-center w3-light-grey">
     <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
         <header class="w3-container w3-top w3-black w3-xlarge w3-padding-16">
             <span class="w3-left w3-padding">NLP Data Annotation</span>
