@@ -12,7 +12,7 @@
     ##### 判斷是否跳頁進來 #####
     if($_SESSION['username']){
     }else{
-        header("Location: ./sign.php");
+        header("Location: ./index.php");
     }
 
     ##### 學號session #####
@@ -28,7 +28,7 @@
     if($result_article['a_id'] == ''){?>
         <script language="javascript"> alert('您已標記完成！')</script>";
         <?php
-        header("refresh:0 url=./sign.php");
+        header("refresh:0 url=./index.php");
     }
     ?>
     <?php
