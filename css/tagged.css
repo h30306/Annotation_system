@@ -1,0 +1,56 @@
+body{
+	background: #FFFFFF;
+}
+
+
+.footer {
+  /*position: fixed;*/
+  display: -webkit-box;
+  display: flex;
+  /*width: 100%;*/
+  align-items: center;
+  height:50px;
+  background: #FFFFFF;
+  color:#000000;
+  font-size: 10px;
+  /*text-align: center;*/
+
+}
+
+
+.header {
+	display: -webkit-box;
+	display: flex;
+	background:#000000;
+	color: 	#FFFFFF;
+	height:80px;
+	align-items: center;
+	/*overflow: hidden;*/
+}
+
+.bar {
+	padding-top: 8px;
+}
+
+.score{
+	width:10%
+}
+
+label {
+  display: block;
+}
+ul {
+  list-style: none;
+  display: block;
+  width:100%;
+  margin:0; 
+  border:0;
+  display: table-row;
+  vertical-align:middle; 
+  text-align:center;
+}
+ul li {
+  float: left;
+  width:25px;
+  display: block;
+}
