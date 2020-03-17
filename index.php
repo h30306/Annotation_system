@@ -40,9 +40,8 @@
             <br>
             <br>
             <form action="logincheck.php" method="Post">
-            <span class="text-center" style="font-size: 18px">請輸入學號開始做作業！</span><br><br>
-                <input type="Text" name="number" id="number" required="required" name="number" maxlength="8"><br>
-                <br>
+                <span class="text-center" style="font-size: 18px">請輸入學號開始做作業！</span><br><br>
+                    <input type="Text" name="number" id="number" required="required" name="number" maxlength="8"><br><br>
                 <input type="Submit" name='submit' class="btn btn-warning" value='開始標記'>
             </form>
             <br>
@@ -60,7 +59,7 @@
             <br>
             <br>
             <footer class="text-center text-small">
-            <p>© 2020 <a href="http://bigdata.scu.edu.tw/">School of Big Data Management</a>, Soochow Univerity</p>
+                <p>© 2020 <a href="http://bigdata.scu.edu.tw/">School of Big Data Management</a>, Soochow Univerity</p>
             </footer>
             <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
