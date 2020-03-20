@@ -1,9 +1,7 @@
+<?php include("config.php"); ?>
+
 <?php
     session_start();
-    $dbhost = 'demo.jlwu.info:1107';
-    $dbuser = 'VAI';
-    $dbpass = '@VUH5Xi32tAM2yoAm';
-    $dbname = 'VAI';
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);//連接資料庫
     mysqli_query($conn, "SET NAMES 'utf8'");//設定語系
     mysqli_select_db($conn, $dbname);
