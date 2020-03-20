@@ -1,5 +1,5 @@
 # Data Annotaion System
-![image](./1.jpg)
+![image](./1.png)
 #### Github
 
 https://github.com/h30306/tagged_system
