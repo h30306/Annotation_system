@@ -52,11 +52,11 @@ $ touch composer.json
 $ vim composer.json
 ```
 write these in composer.json
-{
-  "require": {
-    "php": "7.2.28"
-  }
-}
+{<br>
+  "require": {<br>
+    "php": "7.2.28"<br>
+  }<br>
+}<br>
 ```
 $ heroku create Project Name(Annotation_system)
 $ git init
