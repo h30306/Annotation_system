@@ -43,10 +43,10 @@ python ./sql_processing/sql_processing.py
 ## Deploy on Heroku
 >If you want to deploy on heroku, you can follow these steps!
 
-1.Signup in [Heroku](https://dashboard.heroku.com)
-2.Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-3.Go to the Annotation_system folder
-4.execute
+1.Signup in [Heroku](https://dashboard.heroku.com)<br>
+2.Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)<br>
+3.Go to the Annotation_system folder<br>
+4.execute<br>
 ```
 $ touch composer.json
 $ heroku create Project Name(Annotation_system)
