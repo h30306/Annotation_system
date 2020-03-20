@@ -24,16 +24,16 @@ Related demo sites
 
 ## Start Up
 
-1.Launch Xampp App
-2.Go to Gerneral page and press start
-3.Go to Services page and press start all
-4.Go to Network page and press enable
-5.Go to Volumns page and press Mount
-6.Press Explore button
-7.Move this Annotation_system Under /htdocs/ or var/www/html/(For Linux Server)
-8.Enter this link in your browser : http://localhost:8080/phpmyadmin/
-9.Create an empty Database named "VAI"
-10.Back to the Annotation_system folder and execute: 
+1.Launch Xampp App<br>
+2.Go to Gerneral page and press start<br>
+3.Go to Services page and press start all<br>
+4.Go to Network page and press enable<br>
+5.Go to Volumns page and press Mount<br>
+6.Press Explore button<br>
+7.Move this Annotation_system Under /htdocs/ or var/www/html/(For Linux Server)<br>
+8.Enter this link in your browser : http://localhost:8080/phpmyadmin/<br>
+9.Create an empty Database named "VAI"<br>
+10.Back to the Annotation_system folder and execute:<br>
 ```
 python ./sql_processing/sql_processing.py
 ```
