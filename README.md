@@ -50,13 +50,14 @@ python ./sql_processing/sql_processing.py
 ```
 $ touch composer.json
 $ vim composer.json
-##### input #####
+```
+write these in composer.json
 {
   "require": {
     "php": "7.2.28"
   }
 }
-#####       #####
+```
 $ heroku create Project Name(Annotation_system)
 $ git init
 $ heroku git:remote -a Project Name(Annotation_system)
