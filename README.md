@@ -1,5 +1,5 @@
 # Data Annotaion System
-<img src="1.png" width="70%"> <img src="2.png" width="70%">
+<img src="1.png" width="55%"> <img src="2.png" width="55%">
 #### Github
 
 https://github.com/h30306/tagged_system
