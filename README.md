@@ -61,34 +61,23 @@ python ./sql_processing/sql_processing.py
 
 4.execute
 ```
-touch composer.json
+$ touch composer.json
+$ heroku create Project Name(Annotation_system)
+$ git init
+$ heroku git:remote -a Project Name(Annotation_system)
 ```
-```
-heroku create Project Name(Annotation_system)
-```
-```
-git init
-```
-```
-heroku git:remote -a Project Name(Annotation_system)
-```
+then,
 Create "Procfile" with no filename extension, and it should look like this:
+```
 web: heroku-php-apache2
 ```
-composer update
+uncomment out the first three lines in index.php
 ```
-```
-git add .
-```
-```
-git commit -m 'v0.1'
-```
-```
-git push heroku master
+$ composer update
+$ git add .
+$ git commit -m 'v0.1'
+$ git push heroku master
+$ heroku open
 ```
 
-```
-```
-```
 
-```
