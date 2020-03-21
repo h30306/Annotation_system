@@ -24,29 +24,29 @@ Related demo sites
 
 ## Start Up
 
-1.Launch Xampp App<br>
-2.Go to Gerneral page and press start<br>
-3.Go to Services page and press start all<br>
-4.Go to Network page and press enable<br>
-5.Go to Volumns page and press Mount<br>
-6.Press Explore button<br>
-7.Move this Annotation_system Under /htdocs/ or var/www/html/(For Linux Server)<br>
-8.Enter this link in your browser : http://localhost:8080/phpmyadmin/<br>
-9.Create an empty Database named "VAI"<br>
-10.Back to the Annotation_system folder and execute:<br>
+1. Launch Xampp App<br>
+2. Go to Gerneral page and press start<br>
+3. Go to Services page and press start all<br>
+4. Go to Network page and press enable<br>
+5. Go to Volumns page and press Mount<br>
+6. Press Explore button<br>
+7. Move this Annotation_system Under /htdocs/ or var/www/html/(For Linux Server)<br>
+8. Enter this link in your browser : http://localhost:8080/phpmyadmin/<br>
+9. Create an empty Database named "VAI"<br>
+10. Back to the Annotation_system folder and execute:<br>
 ```
 python ./sql_processing/sql_processing.py
 ```
-11.Enter this link in your browser : http://localhost:8080/annotation_system/
-12.All done!
+11. Enter this link in your browser : http://localhost:8080/annotation_system/
+12. All done!
 
 ## Deploy on Heroku
 >If you want to deploy on heroku, you can follow these steps!
 
-1.Signup in [Heroku](https://dashboard.heroku.com)<br>
-2.Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)<br>
-3.Go to the Annotation_system folder<br>
-4.execute<br>
+1. Signup in [Heroku](https://dashboard.heroku.com)<br>
+2. Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)<br>
+3. Go to the Annotation_system folder<br>
+4. execute<br>
 ```
 $ touch composer.json
 $ vim composer.json
