@@ -89,7 +89,7 @@ mycursor.executemany(sql11,var)
 mydb.commit()
 
 ##### Insert Article a_PK a_title a_content #####
-f = open("./data/HatePolitics_pool_test.json")
+f = open("./data/HatePolitics_pool_test.json", 'r', encoding='utf-8')
 article = [json.loads(line) for line in f]
 var1=[]
 for i in article:

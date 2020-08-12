@@ -31,13 +31,14 @@ Related demo sites
 5. Go to Volumns page and press Mount<br>
 6. Press Explore button<br>
 7. Move this Annotation_system Under /htdocs/ or var/www/html/(For Linux Server)<br>
-8. Enter this link in your browser : http://localhost:8080/phpmyadmin/<br>
+8. Enter this link in your browser : http://localhost:8080/phpmyadmin/ *Change port to which you start Apach server<br> 
 9. Create an empty Database named "VAI"<br>
 10. Back to the Annotation_system folder and execute:<br>
 ```
-python ./sql_processing/sql_processing.py
+cd sql_processing
+python ./sql_processing.py
 ```
-11. Enter this link in your browser : http://localhost:8080/annotation_system/
+11. Enter this link in your browser : http://localhost:8080/annotation_system/ *Change port to which you start Apach server
 12. All done!
 
 ## Deploy on Heroku
