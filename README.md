@@ -52,7 +52,7 @@ python ./sql_processing.py
 $ touch composer.json
 $ vim composer.json
 ```
-write these in composer.json
+write these in composer.json<br>
 {<br>
   "require": {<br>
     "php": "7.2.28"<br>
