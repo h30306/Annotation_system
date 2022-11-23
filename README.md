@@ -1,18 +1,12 @@
-## Data Annotaion System
-
-https://github.com/h30306/Annotation_system
+# Data Annotaion System for valence-arousal-irony
 <img src="1.png" width="50%"><img src="2.png" width="50%">
-### Github
-
-https://github.com/h30306/tagged_system
-
-### Author
-
-[Howard W. Chung](https://github.com/h30306)
 
 ## Introduction
 
-This library implements Data Annotation System website
+This library implements Data Annotation System website used in paper to annotate three dimensional of sentiment
+* [A Dimensional Valence-Arousal-Irony Dataset for Chinese Sentence and Context](https://aclanthology.org/2022.rocling-1.19/)
+* Sheng-Wei Huang, Wei-Yi Chung, Yu-Hsuan Wu, et.al
+* In Proceedings of the 34rd Conference on Computational Linguistics and Speech Processing, 2022
 
 Related demo sites
 - [Annotation](https://bdtagged.herokuapp.com)
